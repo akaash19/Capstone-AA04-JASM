@@ -10,9 +10,9 @@ export default class Header extends React.Component {
                     <text className='SiteTitle'>FAM-BOOK</text>
                 </Link>
                 <div className="ButtonRow">
-                    <HeaderButton placeholder='About' path='/about'/>
-                    <HeaderButton placeholder='Experience' path='/experience'/>
-                    <HeaderButton placeholder='Contact Me' path='/contact'/>
+                    <HeaderButton placeholder='Photos' path='/photos'/>
+                    <HeaderButton placeholder='Groups' path='/groups'/>
+                    <HeaderButton placeholder='My Profile' path='/myprofile'/>
                 </div>
             </header>
         )

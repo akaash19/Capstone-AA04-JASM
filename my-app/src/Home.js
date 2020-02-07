@@ -3,6 +3,14 @@ import './styles/Home.css';
 import Header from './components/Header'
 
 export default class Home extends React.Component {
+  constructor(props) {
+    super(props)
+  }
+
+  componentDidMount() {
+    console.log(this.props)
+  }
+
   render() {
     return (
       <div id="Page">
@@ -13,7 +21,7 @@ export default class Home extends React.Component {
           <div className="Home">
             <Header/>
           </div>
-          <div id='Landing'>
+          <div className="mainContent">
             Landing page
           </div>
         </body>

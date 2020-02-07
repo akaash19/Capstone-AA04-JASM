@@ -2,7 +2,7 @@ import React from 'react';
 import './styles/Home.css';
 import Header from './components/Header'
 
-export default class About extends React.Component {
+export default class Groups extends React.Component {
   render() {
     return (
       <div id="Page">
@@ -13,7 +13,7 @@ export default class About extends React.Component {
           <div className="Home">
             <Header/>
           </div>
-          <div id='bio_cards'>
+          <div className="mainContent">
 
           </div>
         </body>
