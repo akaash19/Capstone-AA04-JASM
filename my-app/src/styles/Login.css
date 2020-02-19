@@ -6,6 +6,11 @@
 
 .SiteInfo {
     width: 40%;
+    margin-left: 10%;
+}
+
+#SignUpForm {
+    margin-right: 10%;
 }
 
 #LoginForm .FieldAndLabel {
