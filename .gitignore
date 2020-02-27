@@ -1,4 +1,7 @@
+.gitignore
 node_modules
+client/node_modules
+
 
 # General
 .DS_Store
