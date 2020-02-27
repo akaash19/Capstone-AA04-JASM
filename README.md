@@ -6,7 +6,7 @@ INFO 490 Capstone Project (AA-04 Team JASM)
 
 ### Website URL:
 
-<<https://jasm-capstone.herokuapp.com/>>
+<https://jasm-capstone.herokuapp.com/>
 
 
 
@@ -24,10 +24,10 @@ How might families and groups of close friends maintain a safe, private collecti
 
 ### Technologies Used
 
-#### MERN:
-- MongoDB
+- Heroku
+- MySQL (ClearDB through Heroku)
 - Express
-- React Native
+- React
 - node.js
 
 

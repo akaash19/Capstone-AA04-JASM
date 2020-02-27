@@ -1,3 +1,6 @@
+RIGHT AFTER CLONING THE REPO DO:
+npm install
+
 Pushing local changes:
 make a commit, then
 git push origin master
