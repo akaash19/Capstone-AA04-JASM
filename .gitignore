@@ -1,7 +1,7 @@
 .gitignore
 node_modules
 client/node_modules
-
+my-app-old/node_modules
 
 # General
 .DS_Store
