@@ -1,0 +1,41 @@
+Pushing local changes:
+git add .
+git commit -m “commit message”
+git push origin master
+
+PLEASE USE A BRANCH THOUGH AND COMMIT TO THAT AND PUSH WITH
+git checkout -b <branch_name>
+git add .
+git commit -m “commit message”
+git push origin master
+git push origin <branch_name>
+
+
+Pushing changes to Heroku, link to site will appear at the end of block:
+git add .
+git commit -m “commit message”
+git push heroku master
+
+ONLY PUSH TO HEROKU IF YOU'VE PUSHED TO MASTER AND ARE SURE YOU SHOULD PUSH TO HEROKU
+
+
+Run app locally on http://localhost:3001/ (server and client)
+npm run dev
+
+Run app locally on http://localhost:3001/ (CLIENT ONLY - React)
+npm run client
+
+Run app locally on http://localhost:3001/ (SERVER ONLY - Express)
+npm run start
+
+
+Database info:
+MySQL
+Host: us-cdbr-iron-east-04.cleardb.net
+Port: 3306
+Password: <in the capstone slides>
+Database Name: heroku_b6b8224d147a38f
+
+Heroku info:
+User: jarettguy@gmail.com
+Password: <in the capstone slides>

@@ -4,6 +4,18 @@ INFO 490 Capstone Project (AA-04 Team JASM)
 
 
 
+### Website URL:
+
+<<https://jasm-capstone.herokuapp.com/>>
+
+
+
+### Landing Page:
+
+<https://jarettlh.github.io/JASM-Capstone/>
+
+
+
 ### Problem Statement
 
 How might families and groups of close friends maintain a safe, private collection of memories so that they can always remember shared moments and maintain a sense of identity?
@@ -12,9 +24,11 @@ How might families and groups of close friends maintain a safe, private collecti
 
 ### Technologies Used
 
+#### MERN:
+- MongoDB
+- Express
 - React Native
 - node.js
-- AWS
 
 
 
