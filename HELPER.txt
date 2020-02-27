@@ -33,8 +33,9 @@ Database info:
 MySQL
 Host: us-cdbr-iron-east-04.cleardb.net
 Port: 3306
+Username: bc2b6d33a1bb4f
 Password: <in the capstone slides>
-Database Name: heroku_b6b8224d147a38f
+Database Name: heroku_eb75923b7ca9e4b
 
 Heroku info:
 User: jarettguy@gmail.com
