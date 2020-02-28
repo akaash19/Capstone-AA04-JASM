@@ -1,0 +1,52 @@
+.mainContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.SiteInfo {
+    width: 40%;
+    margin-left: 10%;
+}
+
+#SignUpForm {
+    margin-right: 10%;
+}
+
+#LoginForm .FieldAndLabel {
+    display: flex;
+    flex-direction: column;
+    padding-right: 1.5em;
+}
+
+#LoginForm form {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    color: lightgrey;
+    align-items: center;
+    height: 100%;
+}
+
+#LoginForm form button {
+    margin-right: 1.5em;
+    margin-top: 32%;
+}
+
+#SignUpForm .Field {
+    height: 2em;
+    width: 250px;
+    border-radius: 3px;
+    margin-bottom: .5em;
+}
+
+#NameFields {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+}
+
+#NameFields .Field {
+    width: 120px;
+    margin-right: 5px;
+}
