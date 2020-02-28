@@ -55,3 +55,50 @@ body{
   padding-left: .5em;
 }
 
+.Feed {
+  position: relative;
+  border-right: #444444 .1em solid;
+  border-left: #444444 .1em solid;
+  background-color: gainsboro;
+  width: 50%;
+  height: 90vh;
+  overflow-y: scroll;
+}
+
+.Post {
+  padding-bottom: .25em;
+  padding-left: .25em;
+  padding-right: .25em;
+  margin: 1em;
+  border: 2px solid grey;
+  border-radius: 1em;
+}
+
+.PostHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.PostAuthor {
+  font-size: 1em;
+  max-width: 20%;
+}
+
+.PostTitle {
+  font-size: 1.5em;
+  padding-left: 3%;
+}
+
+.PostDest {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 30%;
+  padding-right: 3%;
+}
+.PostBody {
+  padding: 1%;
+}
+
+

@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles/Home.css';
 import Header from './components/Header'
+import FeedList from "./components/FeedList";
 
 export default class Home extends React.Component {
   constructor(props) {
@@ -22,7 +23,9 @@ export default class Home extends React.Component {
             <Header/>
           </div>
           <div className="mainContent">
-            Landing page
+            <div className="Feed">
+              <FeedList/>
+            </div>
           </div>
         </body>
 

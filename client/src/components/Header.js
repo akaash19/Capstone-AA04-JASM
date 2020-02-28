@@ -6,7 +6,7 @@ export default class Header extends React.Component {
     render() {
         return (
             <header className="Header">
-                <Link to='/' style={{ textDecoration: 'none', color: 'lightgrey'}}>
+                <Link to='/home' style={{ textDecoration: 'none', color: 'lightgrey'}}>
                     <text className='SiteTitle'>FAM-BOOK</text>
                 </Link>
                 <div className="ButtonRow">

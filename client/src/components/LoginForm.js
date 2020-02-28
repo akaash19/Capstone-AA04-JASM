@@ -46,7 +46,7 @@ export default class LoginForm extends React.Component {
               />
             </Form.Group>
 
-            <Link to={{pathname: "/",
+            <Link to={{pathname: "/home",
               state:{
                 username: this.state.username,
                 password: this.state.password

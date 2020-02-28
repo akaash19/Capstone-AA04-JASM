@@ -34,3 +34,6 @@ Database Name: heroku_eb75923b7ca9e4b
 Heroku info:
 User: jarettguy@gmail.com
 Password: <in the messenger chat>
+
+Live Application:
+https://jasm-capstone.herokuapp.com/

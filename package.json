@@ -23,7 +23,8 @@
   "dependencies": {
     "concurrently": "^5.1.0",
     "express": "^4.17.1",
-    "path": "^0.12.7",
-    "mysql": ""
+    "heroku": "^7.38.2",
+    "mysql": "",
+    "path": "^0.12.7"
   }
 }

@@ -10,8 +10,8 @@ export default class App extends React.Component {
   render() {
     return (
         <Switch>
-          <Route exact path='/login' component={Login} />
-          <Route exact path='/' component={Home} />
+          <Route exact path='/home' component={Home} />
+          <Route exact path='/' component={Login} />
           <Route exact path='/groups' component={Groups} />
           <Route exact path='/photos' component={Photos} />
           <Route exact path='/myprofile' component={MyProfile} />
