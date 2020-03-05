@@ -28,8 +28,10 @@ export default class FeedList extends React.Component {
           <div className={"PostHeader"}>
             <div className={"PostDest"}>
               <h2 className={"PostAuthor"}>{post.first_name + " " + post.last_name }</h2>
-              <h2 className={"PostAuthor"}>{" → "}</h2>
+              <img className={"ProfilePic"} src={require('../assets/ExampleProfilePic.png')}/>
+              <h2 className={"Arrow"}>{" → "}</h2>
               <h2 className={"PostAuthor"}> {post.last_name + " Family"}</h2>
+              <img className={"ProfilePic"} src={require('../assets/ExampleProfilePic.png')}/>
             </div>
             <h1 className={"PostTitle"}>{post.title}</h1>
           </div>

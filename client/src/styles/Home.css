@@ -66,8 +66,8 @@ body{
 }
 
 .Post {
-  padding-bottom: .25em;
-  padding-left: .25em;
+  position: relative;
+  padding-left: 1em;
   padding-right: .25em;
   margin: 1em;
   border: 2px solid grey;
@@ -77,28 +77,49 @@ body{
 .PostHeader {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
 }
 
 .PostAuthor {
   font-size: 1em;
-  max-width: 20%;
+  width:30%;
+  height: 2.5em;
 }
 
 .PostTitle {
   font-size: 1.5em;
-  padding-left: 3%;
+  line-height: 1.2em;
+  width: 60%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 3em;
 }
-
+.Arrow {
+  margin-right: 10px;
+  margin-left: 5px;
+}
 .PostDest {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 30%;
+  width: 40%;
   padding-right: 3%;
 }
 .PostBody {
   padding: 1%;
+}
+
+.ProfilePic {
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-right: 5px;
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
 }
 
 

@@ -19,7 +19,7 @@ export default class Login extends React.Component {
             <div className="Home">
               <header className="Header">
                 <Link to='/' style={{ textDecoration: 'none', color: 'lightgrey'}}>
-                  <text className='SiteTitle'>FAM-BOOK</text>
+                  <text className='SiteTitle'>GroupConnect</text>
                 </Link>
                 <LoginForm/>
               </header>

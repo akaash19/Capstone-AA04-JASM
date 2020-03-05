@@ -7,7 +7,7 @@ export default class Header extends React.Component {
         return (
             <header className="Header">
                 <Link to='/home' style={{ textDecoration: 'none', color: 'lightgrey'}}>
-                    <text className='SiteTitle'>FAM-BOOK</text>
+                    <text className='SiteTitle'>GroupConnect</text>
                 </Link>
                 <div className="ButtonRow">
                     <HeaderButton placeholder='Photos' path='/photos'/>
