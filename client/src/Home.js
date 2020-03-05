@@ -24,7 +24,7 @@ export default class Home extends React.Component {
           </div>
           <div className="mainContent">
             <div className="Feed">
-              <FeedList/>
+              <FeedList firstName={"Seth"} lastName={"Anderson"}/>
             </div>
           </div>
         </body>
