@@ -48,7 +48,8 @@ export default class SignUpForm extends React.Component {
   render() {
     return (
         <div id={"SignUpForm"}>
-          <h1>Sign Up</h1>
+          <h1>Create a New Account</h1>
+          <p>Begin saving your memories today.</p>
           <form onSubmit={this.onClickPlay}>
             <div id={"NameFields"}>
               <Form.Group controlId="text" className={"FieldAndLabel"}>

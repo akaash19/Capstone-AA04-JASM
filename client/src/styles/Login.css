@@ -40,6 +40,10 @@
     margin-bottom: .5em;
 }
 
+#SignUpForm .p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #NameFields {
     display: flex;
     flex-direction: row;
