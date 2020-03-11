@@ -10,7 +10,7 @@ export default class Header extends React.Component {
                     <text className='SiteTitle'>GroupConnect</text>
                 </Link>
                 <div className="ButtonRow">
-                    <HeaderButton placeholder='Photos' path='/photos'/>
+                    <HeaderButton placeholder='Recent Posts' path='/home'/>
                     <HeaderButton placeholder='Groups' path='/groups'/>
                     <HeaderButton placeholder='My Profile' path='/myprofile'/>
                 </div>
