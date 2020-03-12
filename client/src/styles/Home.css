@@ -173,6 +173,8 @@ body{
   max-width: 600px;
   height: auto;
   max-height: 250px;
+  border: 1px solid grey;
+  border-radius: 5px;
 }
 
 .vertical-timeline-element-date {
