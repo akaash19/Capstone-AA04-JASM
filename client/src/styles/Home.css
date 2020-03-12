@@ -110,14 +110,20 @@ body{
 }
 .PostBody {
   padding: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .ProfilePic {
   margin-left: 5px;
   margin-top: 10px;
   margin-right: 5px;
-  height: 40px;
-  width: 40px;
+  width: auto;
+  max-width: 40px;
+  height: auto;
+  max-height: 40px;
   border-radius: 40px;
 }
 
@@ -158,6 +164,13 @@ body{
 .timelineImage {
   width: auto;
   max-width: 400px;
+  height: auto;
+  max-height: 250px;
+}
+
+.feedImage {
+  width: auto;
+  max-width: 600px;
   height: auto;
   max-height: 250px;
 }

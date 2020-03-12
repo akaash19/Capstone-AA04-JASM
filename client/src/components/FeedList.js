@@ -35,20 +35,30 @@ export default class FeedList extends React.Component {
   }
 
   createPost(post) {
+    let imageNum = Math.floor((Math.random() * 4) + 1);
+    let image = (<img className={"ProfilePic"} src={require("../assets/ProfilePic" + imageNum + ".jpg")}/>);
+    let imageNum2 = imageNum + 1;
+    let image2 = (<img className={"ProfilePic"} src={require("../assets/AndersonReunion.jpg")}/>);
+    let postImage = ""
+    if(post.image != "") {
+      postImage = (<img className={"feedImage"} src={require("../assets/" + post.image)}/>)
+    }
+
     return(
         <div className={"Post"}>
           <div className={"PostHeader"}>
             <div className={"PostDest"}>
               <h2 className={"PostAuthor"}>{post.first_name + " " + post.last_name }</h2>
-              <img className={"ProfilePic"} src={require('../assets/ExampleProfilePic.png')}/>
+              {image}
               <h2 className={"Arrow"}>{" → "}</h2>
               <h2 className={"PostAuthor"}> {post.last_name + " Family"}</h2>
-              <img className={"ProfilePic"} src={require('../assets/ExampleProfilePic.png')}/>
+              {image2}
             </div>
             <h1 className={"PostTitle"}>{post.title}</h1>
           </div>
           <div className={"PostBody"}>
-            {post.content}
+            <p>{post.content}</p>
+            {postImage}
           </div>
         </div>
     )
