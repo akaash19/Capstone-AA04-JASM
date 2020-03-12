@@ -2,6 +2,7 @@ import React from 'react';
 import './styles/Home.css';
 import Header from './components/Header'
 
+
 export default class MyProfile extends React.Component {
   render() {
     return (
