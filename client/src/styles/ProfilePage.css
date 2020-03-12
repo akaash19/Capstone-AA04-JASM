@@ -1,0 +1,38 @@
+#profilePic{
+    border-radius: 85px;
+    padding-top: 7px;
+}
+
+.container-about{
+    background-color: rgb(255,255,255);
+    border-radius: 15px;
+    border-style: hidden;
+    padding: 18px;
+    text-align: center;
+}
+
+.container-about>p{
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.container-about>h1{
+    font-family: 'Ruba', sans-serif;
+}
+
+.container-banner{
+    background-color: #f1f1f1;
+    text-align: center;
+    border-style: hidden;
+    border-radius: 15px;
+    font-family: 'Ruba', sans-serif;
+}
+
+.container-1>a{
+    padding-left: 5px;
+    font-size: 22px;
+    text-decoration: none;
+}
+
