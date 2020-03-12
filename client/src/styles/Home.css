@@ -154,3 +154,14 @@ body{
 .GroupSelect {
   margin-bottom: .7em;
 }
+
+.timelineImage {
+  width: auto;
+  max-width: 400px;
+  height: auto;
+  max-height: 250px;
+}
+
+.vertical-timeline-element-date {
+  color: rgb(33, 150, 243);
+}
