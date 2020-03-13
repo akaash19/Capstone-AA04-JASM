@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles/Home.css';
 import Header from './components/Header'
-
+import SimpleSwiper from './components/Swiper.js'
 export default class Groups extends React.Component {
   render() {
     return (
@@ -14,7 +14,7 @@ export default class Groups extends React.Component {
             <Header/>
           </div>
           <div className="mainContent">
-
+            <SimpleSwiper/>
           </div>
         </body>
 
