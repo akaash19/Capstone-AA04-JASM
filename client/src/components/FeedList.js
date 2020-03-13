@@ -43,7 +43,7 @@ export default class FeedList extends React.Component {
     let postImage = ""
     if(post.image != "") {
       postImage = (<img className={"feedImage"} src={require("../assets/" + post.image)}/>)
-    }
+    } 
 
     return(
         <div className={"Post"}>
