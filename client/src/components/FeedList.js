@@ -27,7 +27,8 @@ export default class FeedList extends React.Component {
       first_name: this.props.firstName,
       last_name: this.props.lastName,
       title: title,
-      content: body
+      content: body,
+      image: ""
     });
     this.setState({
       posts: tempPosts
