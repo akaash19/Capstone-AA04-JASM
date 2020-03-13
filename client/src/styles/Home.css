@@ -40,11 +40,11 @@ body{
 }
 
 .HeaderButton:hover {
-  background-color: lightgrey;
+  background-color: rgb(15, 49, 46);
 }
 
 .HeaderButton:hover h1 {
-  color: #282c34;
+  color: #c5c6c9;
 }
 
 .SiteTitle {
@@ -178,5 +178,18 @@ body{
 }
 
 .vertical-timeline-element-date {
-  color: rgb(33, 150, 243);
+  color: rgb(255, 123, 0);
+}
+
+#familyName {
+  color: rgb(255, 123, 0);
+}
+
+#mainContent {
+  background-color: rgb(33, 150, 243);
+}
+
+.initial-create {
+font-family: Arial Black, Helvetica, sans-serif;
+color: rgb(255, 123, 0);
 }

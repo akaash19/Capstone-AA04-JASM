@@ -48,8 +48,8 @@ export default class SignUpForm extends React.Component {
   render() {
     return (
         <div id={"SignUpForm"}>
-          <h1>Create a New Account</h1>
-          <p>Begin saving your memories today.</p>
+          <h1 className="createNew" style={{color: 'rgb(255, 123, 0)'}}> Create a New Account </h1>
+          <p className="begin" style={{color: 'rgb(255, 123, 0)'}}>Begin saving your memories today.</p>
           <form onSubmit={this.onClickPlay}>
             <div id={"NameFields"}>
               <Form.Group controlId="text" className={"FieldAndLabel"}>

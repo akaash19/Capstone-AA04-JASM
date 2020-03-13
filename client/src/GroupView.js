@@ -31,10 +31,10 @@ export default class GroupView extends React.Component {
     return(
           <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-              contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+              contentStyle={{ background: 'rgb(9, 88, 81)', color: '#fff' }}
+              contentArrowStyle={{ borderRight: '7px solid  rgb(9, 88, 81)' }}
               date={post.time_created}
-              iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+              iconStyle={{ background: 'rgb(9, 88, 81)', color: '#fff' }}
               icon={null}
           >
             <h3 className="vertical-timeline-element-title">{post.first_name + " " + post.last_name}</h3>
@@ -65,7 +65,7 @@ export default class GroupView extends React.Component {
             {
               // Title for the family
             }
-            <h1> Anderson Family </h1>
+            <h1 className="familyName"> Anderson Family </h1>
 
 
             {
