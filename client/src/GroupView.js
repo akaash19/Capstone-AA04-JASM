@@ -18,7 +18,7 @@ export default class GroupView extends React.Component {
 
   componentDidMount() {
     this.setState({
-      posts: fakeJSONData.reverse(),
+      posts: fakeJSONData,
       loading: false
     })
   }
@@ -48,7 +48,7 @@ export default class GroupView extends React.Component {
   }
 
   createPostList() {
-    let posts = this.state.posts;
+    let posts = this.state.posts.reverse();
     let postList = posts.map((post)=> {
       return (
           this.createPost(post)
