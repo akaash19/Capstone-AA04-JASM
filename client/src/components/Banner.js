@@ -12,10 +12,10 @@ class Banner extends React.Component {
                 
                 <Link to={'/'} style={{ }}><button>Logout</button></Link>
                 <button>edit</button>
-               
+                
             </section>
         )
     }
 }
 
-export default Banner
+export default Banner 
