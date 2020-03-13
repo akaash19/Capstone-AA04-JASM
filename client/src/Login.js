@@ -21,7 +21,7 @@ export default class Login extends React.Component {
             <body>
             <div className="Home">
               <header className="Header">
-                <Link to='/' style={{ textDecoration: 'none', color: 'lightgrey'}}>
+                <Link to='/' style={{ textDecoration: 'none', color: 'rgb(255, 123, 0)'}}>
                   <text className='SiteTitle'>GroupConnect</text>
                 </Link>
                 <LoginForm/>

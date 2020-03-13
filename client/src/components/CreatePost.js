@@ -27,7 +27,6 @@ export default class CreatePost extends React.Component {
       <div className={'CreatePost Post'}>
           <div className={'CreatePostTitleAndBody'}>
             <Form.Group controlId="text" bsSize="large">
-              <br></br>
               <p className="initial-create">Create post</p>
               <Form.Control
                   className={'CreatePostTitle'}
