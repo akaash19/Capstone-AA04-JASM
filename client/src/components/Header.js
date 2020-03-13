@@ -11,7 +11,7 @@ export default class Header extends React.Component {
                 </Link>
                 <div className="ButtonRow">
                     <HeaderButton placeholder='Recent Posts' path='/home'/>
-                    <HeaderButton placeholder='Timeline' path='/groupview'/>
+                    <HeaderButton placeholder='Groups' path='/groups'/>
                     <HeaderButton placeholder='My Profile' path='/myprofile'/>
                 </div>
             </header>
