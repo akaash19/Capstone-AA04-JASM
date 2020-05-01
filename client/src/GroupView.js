@@ -1,9 +1,14 @@
 import React from 'react';
 import './styles/Home.css';
 import Header from './components/Header'
+import GroupHeader from './components/GroupHeader'
+
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import fakeJSONData from './assets/MOCK_DATA_GROUP'
+
+
+
 
 export default class GroupView extends React.Component {
   constructor(props) {
@@ -91,6 +96,9 @@ export default class GroupView extends React.Component {
         <div className="Home">
           <Header/>
         </div>
+      <div>
+        <GroupHeader/>
+      </div>
         {this.createPostList()}
       </body>
 

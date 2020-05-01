@@ -5,6 +5,7 @@ import Groups from './Groups'
 import MyProfile from './MyProfile';
 import Login from './Login';
 import GroupView from './GroupView';
+import MapView from './MapView';
 
 export default class App extends React.Component {
   render() {
@@ -15,6 +16,7 @@ export default class App extends React.Component {
           <Route exact path='/groups' component={Groups} />
           <Route exact path='/groupview' component={GroupView} />
           <Route exact path='/myprofile' component={MyProfile} />
+          <Route exact path ='/mapview' component={MapView} />
         </Switch>
     );
   }
