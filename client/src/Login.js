@@ -6,7 +6,6 @@ import SignUpForm from "./components/SignUpForm";
 import './styles/Login.css'
 import LoginHeader from './components/LoginHeader.js';
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
-import img from './assets/Family-Quotes-1.jpg';
 import Footer from './components/FooterPage';
 
 export default class Login extends React.Component {
