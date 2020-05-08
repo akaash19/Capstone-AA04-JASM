@@ -13,10 +13,10 @@ export default class MapView extends React.Component {
      
         <body>
            <div className="Home">
-           <Header/>
+           <Header firstName={"Leyla"} lastName={"Munkley"}/>
           </div>
           <div className="Home">
-          <GroupHeader/>
+          <GroupHeader currentTab={"mapview"}/>
           </div> 
           <div id="sideBar">
          <SideBar/>

@@ -1,7 +1,7 @@
 import React from 'react';
-import './styles/Home.css';
 import Header from './components/Header'
 import FeedList from "./components/FeedList";
+import './styles/Home.css';
 
 export default class Home extends React.Component {
   constructor(props) {
@@ -20,7 +20,7 @@ export default class Home extends React.Component {
         </head>
         <body>
           <div className="Home">
-            <Header/>
+            <Header firstName={"Leyla"} lastName={"Munkley"} currentTab={"home"}/>
           </div>
           <div className="mainContent">
             <div className="Feed">
