@@ -16,16 +16,16 @@ export default class GroupView extends React.Component {
     this.createPost = this.createPost.bind(this)
     this.createPostList = this.createPostList.bind(this)
     this.state = {
-      posts: [],
+      posts: fakeJSONData,
       loading: true
     };
   }
 
   componentDidMount() {
     this.setState({
-      posts: fakeJSONData,
       loading: false
     })
+
   }
 
   createPost(post) {
@@ -53,7 +53,7 @@ export default class GroupView extends React.Component {
   }
 
   createPostList() {
-    let posts = this.state.posts.reverse();
+    let posts = this.state.posts;
     let postList = posts.map((post)=> {
       return (
           this.createPost(post)
@@ -70,7 +70,7 @@ export default class GroupView extends React.Component {
             {
               // Title for the family
             }
-            <h1 className="familyName"> Anderson Family </h1>
+            <h1 className="familyName"> Munkley Family </h1>
 
 
             {
@@ -94,10 +94,10 @@ export default class GroupView extends React.Component {
       </head>
       <body>
         <div className="Home">
-          <Header/>
+          <Header firstName={"Leyla"} lastName={"Munkley"}/>
         </div>
       <div>
-        <GroupHeader/>
+        <GroupHeader currentTab={"timeline"}/>
       </div>
         {this.createPostList()}
       </body>

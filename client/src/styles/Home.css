@@ -19,11 +19,14 @@ body{
   background-color: rgb(9, 88, 81);
 }
 
+.SubHeader {
+  background-color: rgb(9, 165, 161);
+}
+
 .ButtonRow {
   display: flex;
   float: right;
 }
-
 
 .mainContent {
   display: flex;
@@ -31,7 +34,7 @@ body{
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: center;
-  background-color: rgb(236, 236, 236);
+  background-image: url("../assets/whitePattern.jpg");
 }
 
 .HeaderButton {
@@ -44,6 +47,11 @@ body{
 }
 
 .HeaderButton:hover h1 {
+  color: #c5c6c9;
+}
+
+.HeaderButtonActive {
+  background-color: rgb(15, 49, 46);
   color: #c5c6c9;
 }
 
@@ -75,9 +83,10 @@ body{
 
 .PostHeader {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .PostAuthor {
@@ -89,17 +98,16 @@ body{
 .PostTitle {
   font-size: 1.5em;
   line-height: 1.2em;
-  width: 60%;
+  width: 90%;
   padding-bottom: 0;
   margin-bottom: 0;
   white-space: normal;
   overflow: hidden;
   text-overflow: ellipsis;
-  height: 3em;
 }
 .Arrow {
-  margin-right: 10px;
-  margin-left: 5px;
+  margin-right: 14%;
+  margin-left: 14%;
 }
 .PostDest {
   display: flex;
@@ -109,7 +117,6 @@ body{
   padding-right: 3%;
 }
 .PostBody {
-  padding: 1%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -192,4 +199,41 @@ body{
 .initial-create {
 font-family: Arial Black, Helvetica, sans-serif;
 color: rgb(255, 123, 0);
+}
+
+.slider {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.groupCardContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items:center;
+  flex-wrap: wrap;
+}
+
+.groupCard {
+  width: 33.33%;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+}
+
+.groupCardContent {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+}
+
+#groupCardPic {
+  height: 150px;
+  width: auto;
 }
