@@ -17,7 +17,7 @@ export default class MapView extends React.Component {
 
         <body>
         <div className="Home">
-          <Header firstName={"Leyla"} lastName={"Munkley"}/>
+          <Header firstName={"Leyla"} lastName={"Munkley"} currentTab={"groups"}/>
         </div>
         <div className="Home">
           <GroupHeader currentTab={"mapview"}/>

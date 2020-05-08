@@ -94,7 +94,7 @@ export default class GroupView extends React.Component {
       </head>
       <body>
         <div className="Home">
-          <Header firstName={"Leyla"} lastName={"Munkley"}/>
+          <Header firstName={"Leyla"} lastName={"Munkley"} currentTab={"groups"}/>
         </div>
       <div>
         <GroupHeader currentTab={"timeline"}/>
