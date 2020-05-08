@@ -4,16 +4,24 @@ body {
 }
 
 #sideBar {
-  background-color: #42adf5;
+  background-image: url("../assets/whitePattern.jpg");
+
   float: left;
   font-family: sans-serif;
-  height: 100vh;
+  margin-right: 10%;
+}
+
+.mapPageContent {
+  background-image: url("../assets/whitePattern.jpg");
+
+  height: 100%;
 }
 
 #page-wrap {
   padding-top: 5px;
   text-align: center;
-  overflow: auto;
+  display: flex;
+  flex-direction: row;
 }
 
 .bm-item {
@@ -74,4 +82,19 @@ body {
 .title {
     padding-bottom: 5px;
     color: #858c72;
+}
+
+.map {
+  margin-left: 50px;
+}
+
+.mapAndSidebar {
+  display: flex;
+  flex-direction: row;
+  padding-top: 0%;
+}
+
+.mapImage {
+  width:auto;
+  height: 100px;
 }

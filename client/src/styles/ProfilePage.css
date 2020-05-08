@@ -69,13 +69,13 @@
     text-decoration: none;
     
 }
-span:hover{
+#ProfilePage span:hover{
     text-decoration: none;
     transform: scale(1.5);
     
 }
 
-button:hover{
+#ProfilePage button:hover{
     text-decoration: none;
     transform: scale(1.5);
 }
@@ -90,8 +90,6 @@ button:hover{
     text-align: center;
     font-family: 'Saira Semi Condensed', sans-serif;
     font-size: 16px;
-    
-     
 }
 
 .container-2 > a{

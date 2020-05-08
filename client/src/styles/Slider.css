@@ -1,0 +1,35 @@
+.slide-container {
+  width: 100%;
+  margin: auto;
+  background-color: #1a1a1a;
+}
+.aws-btn {
+  --slider-height-percentage: 32%;
+  --slider-transition-duration: 500ms;
+  --organic-arrow-thickness: 8px;
+  --organic-arrow-border-radius: 0px;
+  --organic-arrow-height: 19px;
+  --organic-arrow-color: #ffffff;
+  --control-button-width: 10%;
+  --control-button-height: 25%;
+  --control-button-background: transparent;
+  --control-bullet-color: #a3b9d0;
+  --control-bullet-active-color: #8b9db1;
+  --loader-bar-color: orange;
+  --loader-bar-height: 5px;
+}
+
+#Page {
+  background-image: url("../assets/whitePattern.jpg");
+}
+
+.sliderCard {
+  color: #c5c6c9;
+}
+
+.sliderImage {
+  width: auto;
+  max-width: 600px;
+  height: auto;
+  max-height: 400px;
+}

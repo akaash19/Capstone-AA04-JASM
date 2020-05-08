@@ -12,7 +12,7 @@ export default class MyProfile extends React.Component {
     return (
       <div id="ProfilePage">
           <div className="Home">
-            <Header/>
+            <Header firstName={"Leyla"} lastName={"Munkley"} currentTab={"profile"}/>
           </div>
           <Banner/>
           <br/>
