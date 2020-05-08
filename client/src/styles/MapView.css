@@ -4,14 +4,16 @@ body {
 }
 
 #sideBar {
-  background-color: #42adf5;
+  background-image: url("../assets/whitePattern.jpg");
+
   float: left;
   font-family: sans-serif;
   margin-right: 10%;
 }
 
 .mapPageContent {
-  background-color: #42adf5;
+  background-image: url("../assets/whitePattern.jpg");
+
   height: 100%;
 }
 
